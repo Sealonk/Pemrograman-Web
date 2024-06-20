@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a:hover{
+    box-shadow: 0px 3px 0px 0px white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 108%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff6600;
+    color: white;
+}
+
+.action-link {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
+.success-msg {
+    color: #4CAF50;
+}
+
+.error-msg {
+    color: #f44336;
+}
+
+.bg-red {
+    background-color: #f44336;
+    color: white;
+}
+
+.bg-blue {
+    background-color: #2196F3;
+    color: white;
+}
+
+.bg-green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bg-yellow {
+    background-color: #ffeb3b;
+    color: black;
+}
+
+.error-msg {
+    color: #f44336;
+    background-color: #ffebee;
+    border: 1px solid #f44336;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success-msg {
+    color: #4CAF50;
+    background-color: #e8f5e9;
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Styles for search form */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* CSS untuk membuat footer tetap di bagian bawah */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 200px; /* Sesuaikan tinggi footer */
+    padding: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px; /* Sesuaikan tinggi footer */
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Gaya umum untuk tombol */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Gaya khusus untuk tombol logout */
+.logout-button {
+    background-color: #f44336; /* Warna merah */
+    color: white;
+}
+
+.logout-button:hover {
+    background-color: #e00f00;
+}
+
+/* Gaya khusus untuk tombol lainnya */
+.home-button {
+    background-color: #007bff; /* Warna biru */
+    color: white;
+}
+
+.register-button {
+    background-color: #ffc107; /* Warna kuning */
+    color: black;
+}
+
+.history-button {
+    background-color: #17a2b8; /* Warna biru muda */
+    color: white;
+}
+
+.history-button:hover {
+    background-color: #008da2;
+}
+
+.borrow-button {
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+}
+
+.borrow-button:hover {
+    background-color: #45a049;
+}
+
+.return-button {
+    background-color: #dc3545; /* Warna merah terang */
+    color: white;
+}
+
+.return-button:hover {
+    background-color: #cb0014;
+}
+
+.dashboard-button {
+    background-color: #17a2b8; /* Warna biru muda */
+    color: white;
+}
+
+.dashboard-button:hover {
+    background-color: #008da2;
+}
+
+.dipinjam {
+    color: red;
+}
